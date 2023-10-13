@@ -2,7 +2,8 @@
 
 .bodytext {text-align:center}
 
-.containergeral {position: relative;         
+.containergeral {position: relative;
+                
                 }
 
 .container3 {position: relative;
@@ -15,15 +16,16 @@
             
                        
         }
-.positioning {margin-left:300px}
+.positioning {margin-left:200px}
 
 .textpos {text-align:justify;
-        margin-left: 300px;
+        margin-left: 190px;
         ;}
 
 .container4 {position: absolute;
             margin-left: 600px;
-            margin-bottom: 500px}
+            margin-bottom: 500px;
+            padding-top: 150px    }
 
 .container5 { width:50%;
         padding-top: 100px;
