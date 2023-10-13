@@ -2,8 +2,7 @@
 
 .bodytext {text-align:center}
 
-.containergeral {position: relative;
-                
+.containergeral {position: relative;         
                 }
 
 .container3 {position: relative;
@@ -57,7 +56,7 @@
 /* Fale Conosco */
 
 .bgfr {
-                background-image: url("pergaminho2.jpg");
+                background-image: url("imagens/pergaminho2.jpg");
                 background-repeat: no-repeat;
                 border-radius: 25px;
         }
