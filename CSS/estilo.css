@@ -1,0 +1,212 @@
+/* Index */
+
+.indextext{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: #fff;
+      text-shadow: 1px 1px #0c0c34;
+      text-align:center;
+      width: 50%;
+      margin-left:270px
+}
+
+.mainlogo{
+    text-align:center
+}
+
+    
+
+
+/*Conteúdo*/
+
+.navcont{display:grid;
+        padding-top:60px;
+        position:absolute;
+      scroll-behavior: smooth;}
+        
+
+
+.navbutton {
+  background:    #999999;
+  background:    linear-gradient(#999999, #073763);
+  border:        1px solid #0c343d;
+  border-radius: 1000px;
+  box-shadow:    0 1px #000000;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 26px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #0c0c34;}
+
+.a:link {
+          color: rgb(251, 251, 252);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+.a:visited {
+          color: rgb(120, 154, 233);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+.a:hover {color: rgb(77, 74, 74);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+.a:active {
+          color: rgb(8, 63, 74);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+.spacing {padding-bottom: 100px}
+
+    
+.bgconfig {background: rgb(247,247,247);
+  background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(104,142,161,1) 52%, rgba(92,101,117,1) 100%);
+  
+    }
+
+.cont1 {padding-left: 900px;}
+
+.cont2 {padding-right:700px;
+        color:#ffffff; 
+        text-shadow:1px 1px goldenrod}
+
+.vids { margin-left: -300px}
+    
+
+.h11 {text-align:center;
+      color:#fff;
+      padding-top:100px;
+      margin-left:-100px;
+      text-decoration-line: underline;
+      text-shadow:1px 1px 1px #010101;
+       }
+
+    
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 700px;
+      position: relative;
+      margin-left:350px;
+      box-sizing:border-box;
+       
+          
+      
+     
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+      position:relative;
+      border:outset 10px #717171;
+      border-radius: 10px;
+          }
+    
+        
+    /* Caption text */
+    .text {
+      color: #ffffff;
+      font-size: 22px;
+      padding: 8px 10px;
+      position: absolute;
+      bottom: 8px;
+      width:auto;
+      text-align: center;
+      text-shadow: 1px 1px #000000;
+      background-color:#073763
+    }
+    
+     
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      margin:auto
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+
+/*Quem Somos*/
+
+.navcont1 {
+  background:    #999999;
+  background:    linear-gradient(#999999, #0b5394);
+  border:        1px solid #384058;
+  border-radius: 1000px;
+  box-shadow:    -1px 0 #000000;
+  padding:       8px 40px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 26px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+  margin-left: 220px
+  
+}
+
+.bubble {position: relative;
+  border-radius: 50%;
+ display:table-cell;
+ height: 180px;
+ width: 190px;
+ vertical-align:middle;
+ border: solid rgb(143, 143, 145) 5px;
+background-color:rgb(7, 37, 64);
+font-size:14pt; 
+text-align:center;
+color:#fff;
+text-shadow: 3px 3px 3px #070e3a;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.pstyle{color:#fff;
+  text-shadow: 3px 3px 3px rgb(14, 17, 51);
+  
+
+}
+
+.center {margin-left: 150px;}
+
+/* Fale Conosco */
+
+.container1 {
+  width: 452px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+fieldset {border-radius: 20px;}
+
+
+
+
+
+
+.h55 {color: #fff;
+      position:absolute;}
+
+
