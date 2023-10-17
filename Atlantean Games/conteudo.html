@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+        	
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="HogTech">
+    <meta name="description" content="Semana de Tecnologia - Atlantean Games">
+    <meta name="keywords" content="curso, programação, tecnologia, aula, games">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="Helena Souza">
+    <meta name-="viewport" content="width=devide-width, initial-scale=1.0" />
+
+    <title>  </title>
+    
+    <link rel="icon" type="image/ico" sizes="32x32" href="Imagens/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+   
+    
+      
+</head>
+        <body class="bgconfig">
+
+            <div class="cont1">
+                <img src="Imagens/logo.png" height="50%" width="90%" />
+            </div>
+            
+            <div class="cont2"><h2>20ª Semana Nacional da Tecnologia</h2>
+            
+            </div>                
+             
+             <hr />
+             <br />
+             <br />
+            <div>
+            <nav class="navcont">
+                <a class="aclass a navbutton" href="index.html">Início</a>
+                <br />
+                <a class="aclass a navbutton" href="conteudo.html">Conteúdo</a>
+                <br />
+                <a class="aclass a navbutton" href="quemsomos.html">Quem Somos</a> 
+                <br />
+                <a class="aclass a navbutton" href="faleconosco.html">Fale Conosco</a>
+                <br />
+                       
+            </nav>
+            </div>
+
+            <div class="slideshow-container">
+
+                               
+              <a href="https://semanact.mcti.gov.br/mcti-divulga-a-programacao-da-snct-2023/" target="_blank">
+                 <div class="mySlides fade">
+                 <img src="Imagens/CET2.jpg" width="100%" alt="Semana da Tecnologia - programação MCTI">
+                  <div class="text">Semana da Tecnologia - MCTI libera programação, clique para saber mais!!
+                </div>
+                </div>
+                </a>
+              
+                <a href="https://semanact.mcti.gov.br/o-que-e-a-semana-nacional-de-ciencia-e-tecnologia/" target="_blank"></a>
+                <div class="mySlides fade">
+                  <img src="Imagens/CET1.png" width="100%" alt="Semana da Tecnologia!">
+                  <div class="text">Entenda o que é a Semana Nacional de Ciência e Tecnologi!Clique aqui!</div>
+                </div>
+              </a>
+                
+              <a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2023/09/mcti-e-planetario-do-ceara-vao-distribuir-oculos-especiais-para-observacao-do-eclipse-solar" target="_blank">
+                <div class="mySlides fade">
+                  <img src="Imagens/CET5.jpg" width="100%" alt="Garanta seu óculos!">
+                  <div class="text">MCTI e planetário do Ceará vão distribuir óculos especiais para observação do eclipse solar</div>
+                </div>
+                </a>
+
+                <a href="https://www.bahia.fiocruz.br/fiocruz-bahia-participa-da-20a-semana-nacional-de-ciencia-e-tecnologia/" target="_blank">
+                  <div class="mySlides fade">
+                  <img src="Imagens/CET4.jpg" width="100%" alt="Participe da Semana da Tecnologia!">
+                  <div class="text">Fiocruz Bahia vai participar da Semana Nacional de Ciência e Tecnologia! Clique para mais informações.</div>
+                </div>
+                </a>
+              
+              <br />
+              
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+
+              </div>
+
+            <script>
+              let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}
+                  slides[slideIndex-1].style.display = "block";
+                  setTimeout(showSlides, 2000);
+                }
+                </script>
+
+              
+            
+            <h1 class="h11">Assista às aulas liberadas!</h1>
+
+                
+                  <table class="vids">
+                    <tr>
+                 <td>
+                  <iframe width="360" height="300" src="https://www.youtube.com/embed/Dv8snw6hf-w" title="Minha experiência desenvolvendo jogos no Brasil! Vale a pena essa área para iniciantes?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 </td>
+                
+              
+                 <td>
+                  <iframe width="360" height="300" src="https://www.youtube.com/embed/gMxQ8vxH9Vk" title="Lógica de programação, por onde começar ? (Guia RÁPIDO de estudos completo para INICIANTES)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+                
+                
+                  <td>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/WT33e8ewuOA" title="GAMEDEV: O que é preciso saber para ser um desenvolvedor de jogos? 🕹" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </td>
+                
+                </tr>
+                </table>
+
+                       
+                           
+            
+           
+                    
+               
+             </body>
+        <h5 class="h55">&copy; Todos os direitos reservados Atlantean Games. </h5>
+        </html>	
